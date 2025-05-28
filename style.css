@@ -1,0 +1,62 @@
+* {
+  background-color: lightpink;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  display: flex;
+  text-align: left;
+  font-family: cursive;
+  font-size: 40px;
+  margin: 2px;
+  border: 2px dotted rgb(0, 0, 0);
+  border-radius: 5px;
+  background-color: rgba(240, 62, 35, 0.2);
+  width: 300px;
+}
+.links {
+  display: flex;
+  gap: 25px;
+  font-size: 20px;
+}
+main {
+  display: flex;
+  border-bottom: 80px;
+  align-content: start;
+  margin-right: 2px;
+  flex-direction: row;
+  margin-bottom: px;
+}
+.left {
+  gap: 25px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+li {
+  font-family: cursive;
+  font-size: 20px;
+  background-color: lightblue;
+}
+.testimonial,
+blockquote,
+figcaption {
+  background-color: grey;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+body {
+  height: 100vh;
+}
